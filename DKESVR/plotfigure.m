@@ -1,0 +1,26 @@
+clear 
+clc
+DKESVR=[];
+load('Datasets_1\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_2\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_3\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_4\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_5\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_6\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_7\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_8\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_9\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+load('Datasets_10\DKESVRresult.mat','-mat','result_2')
+DKESVR=[DKESVR;result_2];
+%%
+DKESVR1=DKESVR*18;
+createfigure(DKESVR1(:,1), DKESVR1(:,2))
